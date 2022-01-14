@@ -1,6 +1,6 @@
 # Yksikkötestaus Pytest-työkalulla
 
-Näissä tehtävissä harjoittelemme koodin refaktorointia ja yksikkötestausta kirjoittamalla testejä aikaisemmin koodatulle `02_postinumerot.py`-skriptille (edellisen viikon tehtävän 2. osa).
+Näissä tehtävissä harjoittelemme koodin refaktorointia ja yksikkötestausta kirjoittamalla testejä aikaisemmin koodatulle `postinumerot.py`-skriptille (edellisen viikon tehtävän 2. osa).
 
 Mikäli aikaisempi tehtävä jäi sinulta palauttamatta tai et halua käyttää vanhaa koodiasi, voit käyttää myös tehtävän malliratkaisun tiedostoja, jotka löydät Teams-kanavalta tehtävän umpeutumisen jälkeen.
 
@@ -22,7 +22,7 @@ Kloonatessasi repositoriota varmista, että Git-osoitteen lopussa on oma GitHub-
 
 ## Osa 1: Postinumeroiden etsimisen testit (3 pistettä)
 
-Luo repositorioosi uusi tiedosto, johon kirjoitat Pytest-yksikkötestit edellisen viikon Python-tehtävän osan 2 ratkaisullesi, eli `02_postinumerot.py` skriptille. Mikäli kyseinen tehtävä jäi sinulta toteuttamatta, voit käyttää testattavana koodina tehtävän malliratkaisua.
+Luo repositorioosi uusi tiedosto, johon kirjoitat Pytest-yksikkötestit edellisen viikon Python-tehtävän osan 2 ratkaisullesi, eli `postinumerot.py` skriptille. Mikäli kyseinen tehtävä jäi sinulta toteuttamatta, voit käyttää testattavana koodina tehtävän malliratkaisua.
 
 Sinun ei tarvitse testata koko ohjelmalogiikkaa, vaan riittää, että testaat esimerkiksi yksittäisen funktion. Lisäksi joudut refaktoroimaan Python-tiedostoa siten, että sen testaaminen on ylipäänsä mahdollista.
 
@@ -55,7 +55,7 @@ Bugin korjauksessa voi olla avuksi, jos poistat kaikki välilyönnit [Pythonin r
 Esimerkkisuoritus:
 
 ```
-$ python3 02_postinumerot.py 
+$ python3 postinumerot.py 
 Kirjoita postitoimipaikka: smart post
 Postinumerot: 00104, 00124, 00134, 00144, ..., 40934, ... 99304, 99604, 99804, 99834, 99874, 99944, 99954, 99994
 ```
