@@ -60,7 +60,7 @@ Postin aineistossa smart post -automaatit esiintyvät sekä nimellä "smart post
 
 Ohjelman käyttöliittymän tulee toimia samalla tavoin, kuin [edellisessä tehtävässä](https://github.com/harjoitukset/python-postalcodes).
 
-Bugin korjauksessa voi olla avuksi, jos poistat kaikki välilyönnit [Pythonin replace-funktiolla](https://stackoverflow.com/questions/9452108/how-to-use-string-replace-in-python-3-x).
+Bugin korjauksessa voi olla avuksi, jos poistat kaikki välilyönnit [Pythonin replace-funktiolla](https://docs.python.org/3.3/library/stdtypes.html#str.replace).
 
 Esimerkkisuoritus:
 
